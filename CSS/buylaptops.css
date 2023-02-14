@@ -1,0 +1,74 @@
+.small {
+    margin: 3% 10% 0% 10%;
+    height: 35%;
+    background: #b7c1d8;
+    text-align: center;
+}
+
+.buylaptops{
+    margin: 1% 5% 1% 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.laptop-picture-price{
+    width: 20%;
+    height: 100%;
+}
+
+.laptop-picture{
+    float: left;
+}
+
+.laptop-info{
+    width: 55%;
+    height: 100%;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.laptop-price{
+    float: right;
+    position:relative;
+}
+
+img{
+    min-width: 90%;
+    min-height: 90%;
+    max-width:90%;
+    max-height:90%;
+    font-size: 1.0vw;
+    margin: 5% 0% 5% 0%;
+}
+
+.model-of-laptop{
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.buy-laptop{
+    background-color: #007ea1;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    width: 90%;
+    right: 5%;
+    left: 5%;
+    bottom: 15%;
+    font-size: 2vw;
+}
+
+.buy-laptop:hover{
+    background-color:#00557d;
+}
+
+.price{
+    position: absolute;
+    width: 90%;
+    font-size: 2vw;
+    right: 5%;
+    left: 5%;
+    margin-top: 13%;
+    font-weight: bold;
+}

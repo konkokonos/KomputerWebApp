@@ -1,0 +1,24 @@
+.laptops-box{
+    float: right;
+}
+
+.laptops-dropdown{
+    background-color: #b7c1d8;
+    margin: 1% 5% 0% 5%;
+    font-size: 1.5vw;
+    width: 90%;
+    height: 14%;
+}
+
+.features-title{
+    margin: 1% 5% 0% 5%;
+    padding-right: 70%;
+    font-size: 1.1vw;
+}
+
+.features{
+    margin: 1% 5% 0% 5%;
+    font-size: 1.3vw;
+    height: 50%;
+    overflow-y:scroll;
+}

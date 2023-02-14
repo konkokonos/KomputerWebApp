@@ -1,0 +1,18 @@
+.balance-box{
+    float: left;
+}
+
+.loan-button{
+    background-color: #007ea1;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    width: 90%;
+    font-size: 2vw;
+    right: 5%;
+    left: 5%;
+    bottom: 4%;
+}
+
+.loan-button:hover{
+    background-color:#00557d;
+}

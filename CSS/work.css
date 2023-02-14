@@ -1,0 +1,37 @@
+.work-box{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.work-buttons{
+    position: absolute;
+    width: 90%;
+    font-size: 2vw;
+    right: 5%;
+    left: 5%;
+    bottom: 4%;
+
+}
+
+.repay-loan-button{
+    background-color: #007ea1;
+    border-radius: 15px 15px 15px 15px;
+    position: absolute;
+    width: 90%;
+    font-size: 2vw;
+    right: 5%;
+    left: 5%;
+    bottom: 30%;
+}
+
+.work-button{
+    background-color: #007ea1;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 2vw;
+    width: 48.5%;
+}
+
+.work-button:hover,.repay-loan-button:hover{
+    background-color:#00557d;
+}

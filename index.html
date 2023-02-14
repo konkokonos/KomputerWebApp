@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputer Web App</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="apptitle">
+        <h1 class="title">
+            Komputer Store
+        </h1>
+    </div>
+
+    <div class="big">
+
+        <div class="general_box balance-box">
+            <p class="paragraph-inside-boxes">Joe Banker</p>
+            <table class="table-balance-work" id="add-loan">
+                <tr>
+                  <td>Balance</td>
+                  <td id="balance">200 Kr.</td>
+                </tr>
+            </table>  
+            <button class="loan-button" id="loan">Get a Loan</button>
+        </div>
+
+        <div class="general_box work-box" id="repay-loan">
+            <p class="paragraph-inside-boxes">Work</p>
+            <table class="table-balance-work">
+                <tr>
+                  <td>Pay</td>
+                  <td id="work-amount">0 Kr.</td>
+                </tr>
+            </table>
+            <!-- <button class="repay-loan-button" id="loan">Get a Loan</button> -->
+            <div class="work-buttons">
+                <button class="work-button" id="bank">Bank</button>
+                <button class="work-button" id="work">Work</button>
+            </div>
+        </div>
+
+        <div class="general_box laptops-box">
+            <p class="paragraph-inside-boxes">Laptops</p>
+            <select name="laptops-dropdown" class="laptops-dropdown" id="laptops-dropdown">
+                
+            </select>
+            <h3 class="features-title">Description</h3>
+            <p align="left" class="features" id="description"></p>
+        </div>
+    </div>
+
+    <div class="small">
+
+        <div class="laptop-picture-price laptop-picture">
+            <img alt="A unique Computer just for you!" id="computer-picture">
+        </div>
+
+        <div class="laptop-info">
+            <p class="model-of-laptop" id="model-of-laptop">Model of the Laptop</p>
+            <p align="left" class="features" id="specs"></p>
+        </div>
+
+        <div class="laptop-picture-price laptop-price">
+            <p class="price" id="price-of-laptop"></p>
+            <button class="buy-laptop" id="buy-now-laptop">BUY NOW</button>
+        </div>    
+        
+    </div>
+
+    <script src="./javascript/index.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@import url(balance.css);
+@import url(work.css);
+@import url(laptops.css);
+@import url(buylaptops.css);
+
+html{
+    height: 100%;
+  }
+body{
+    margin: 0px;
+    height: 100%;
+    background-color: #e1f7f6;
+  }
+
+.apptitle{
+    width:100%;
+    height: 8%;
+    background-color: #b7c1d8;
+    margin-bottom: 5%;
+}
+
+.title{
+    margin-top: 0px;
+    color: white;
+    margin-left: 10%;
+    font-size: 3vw;
+    ;
+}
+
+.big {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30%;
+    text-align: center;
+  }
+
+.general_box{
+    background: #b7c1d8;
+    width: 27.33%;
+    height: 100%;
+    position:relative;
+    border-radius: 0 0 15px 15px;
+}
+
+.paragraph-inside-boxes{
+    float: left;
+    margin: 0;
+    padding-left: 5%;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.table-balance-work{
+    margin:12% 5% 0% 5%;
+    font-size: 1.5vw;
+    width: 90%;
+}
