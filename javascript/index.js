@@ -84,7 +84,8 @@ function myData(Data)
     modelOfLaptop.innerText = dropDownOptions.options[dropDownOptions.selectedIndex].text;  // the proper title from 
                                                                                             //the selected default option from dropdown
     description.innerText = `${Data[0].description}`;   // the proper description
-    priceOfLaptop.innerText = `${Data[0].price} Kr.`;   // the proper price
+    price = Data[0].price;
+    priceOfLaptop.innerText = `${price} Kr.`;   // the proper price
     let str =``;    // initialize a string
     for(let i=0; i<(Data[0].specs).length; i++){    // for every spec from the first pc we get every string
         str += `-${Data[0].specs[i]}\n`;    // and add it with a new line in the str string
