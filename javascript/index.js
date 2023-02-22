@@ -81,6 +81,7 @@ function myData(Data)
     }
     // from default our app shows the informatoin from the first pc or laptop from json data
     pcPicture.src = `https://hickory-quilled-actress.glitch.me/${Data[0].image}`;   // we give the img the proper src
+    pcPicture.alt = `Data[0].title`    // adding alt in the image
     modelOfLaptop.innerText = dropDownOptions.options[dropDownOptions.selectedIndex].text;  // the proper title from 
                                                                                             //the selected default option from dropdown
     description.innerText = `${Data[0].description}`;   // the proper description
@@ -100,6 +101,7 @@ function myData(Data)
         for(let i=0; i<Data.length; i++){   // we search all th e data
             if(Data[i].title == model){    // to find the specific model
                 pcPicture.src = `https://hickory-quilled-actress.glitch.me/${Data[i].image}`;   // we change the src for the img
+                pcPicture.alt = `Data[i].title`    // adding alt to the picture
                 description.innerText = `${Data[i].description}`;   // we change the description
                 price = Data[i].price;  // we get the price from the data
                 priceOfLaptop.innerText = `${price} Kr.`;   // we change the price
